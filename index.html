@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtles Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Navigation Bar (Home symbol on the left side) -->
+    <header>
+        <div class="header-container">
+            <!-- Home Link -->
+            <a href="#" onclick="showTab('home')" class="home-link">
+                <img src="./Home.jpg" alt="Home">
+            </a>
+            <h1>Turtles Store</h1>
+            <p>Your one-stop shop for Vape, Beer, and Burritos!</p>
+        </div>
+    </header>
+    
+
+    <main id="content">
+        <!-- Home Page with 3 options -->
+        <section id="home" class="tab-content">
+            <h2>Welcome to Turtles Store</h2>
+            <div class="frontpage-images">
+                <div class="frontpage-item" onclick="showTab('vape')">
+                    <img src="./Vape.jpg" alt="Vape">
+                    <p>Vape</p>
+                </div>
+                <div class="frontpage-item" onclick="showTab('beer')">
+                    <img src="./Beer.jpg" alt="Beer">
+                    <p>Beer</p>
+                </div>
+                <div class="frontpage-item" onclick="showTab('burritos')">
+                    <img src="./Burrito.jpg" alt="Burritos">
+                    <p>Burritos</p>
+                </div>
+            </div>
+
+            <!-- Footer for Home page -->
+            <div>
+                <!-- Delivery Info (Only on Home Page) -->
+                <div class="delivery-info">
+                    <p>For delivery, call: <strong>(519) 627-4700</strong></p>
+                    <p>Free Delivery Available!</p>
+                </div>
+                    <footer class="home-footer">
+                        <p>1119 Dufferin Ave, Wallaceburg, ON N8A 2W2</p>
+                        <p>&copy; 2024 Turtles Store. All rights reserved.</p>
+                    </footer>
+                </div>
+        </div>
+        </section>
+
+        <!-- Vape, Beer, Burritos Content with Tabular Format -->
+        <section id="vape" class="tab-content">
+            <h2>Vape Products</h2>
+            <table class="product-table">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Vape Pen</td>
+                    <td>$29.99</td>
+                </tr>
+                <tr>
+                    <td>Vape Juice</td>
+                    <td>$19.99</td>
+                </tr>
+                <tr>
+                    <td>Disposable Vape</td>
+                    <td>$14.99</td>
+                </tr>
+            </table>
+            
+            <!-- Footer for Vape Tab -->
+            <div>
+                <!-- Delivery Info (Only on Home Page) -->
+                <div class="delivery-info">
+                    <p>For delivery, call: <strong>(519) 627-4700</strong></p>
+                    <p>Free Delivery Available!</p>
+                    </div>
+                    <footer class="home-footer">
+                        <p>1119 Dufferin Ave, Wallaceburg, ON N8A 2W2</p>
+                        <p>&copy; 2024 Turtles Store. All rights reserved.</p>
+                    </footer>
+                </div>
+        </section>
+
+        <section id="beer" class="tab-content">
+            <h2>Beer Selection</h2>
+            <table class="product-table">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Craft Beer</td>
+                    <td>$7.99</td>
+                </tr>
+                <tr>
+                    <td>IPA Beer</td>
+                    <td>$8.99</td>
+                </tr>
+                <tr>
+                    <td>Dark Beer</td>
+                    <td>$9.99</td>
+                </tr>
+            </table>
+            
+            <!-- Footer for Beer Tab -->
+            <div>
+                <!-- Delivery Info (Only on Home Page) -->
+                <div class="delivery-info">
+                    <p>For delivery, call: <strong>(519) 627-4700</strong></p>
+                    <p>Free Delivery Available!</p>
+                </div>
+                    <footer class="home-footer">
+                        <p>1119 Dufferin Ave, Wallaceburg, ON N8A 2W2</p>
+                        <p>&copy; 2024 Turtles Store. All rights reserved.</p>
+                    </footer>
+                </div>
+        </section>
+
+        <section id="burritos" class="tab-content">
+            <h2>Burritos</h2>
+            <table class="product-table">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Chicken Burrito</td>
+                    <td>$6.99</td>
+                </tr>
+                <tr>
+                    <td>Beef Burrito</td>
+                    <td>$7.99</td>
+                </tr>
+                <tr>
+                    <td>Veggie Burrito</td>
+                    <td>$5.99</td>
+                </tr>
+            </table>
+            
+            <!-- Footer for Burrito Tab -->
+            <div>
+                <!-- Delivery Info (Only on Home Page) -->
+                <div class="delivery-info">
+                    <p>For delivery, call: <strong>(519) 627-4700</strong></p>
+                    <p>Free Delivery Available!</p>
+                </div>
+                    <footer class="home-footer">
+                        <p>1119 Dufferin Ave, Wallaceburg, ON N8A 2W2</p>
+                        <p>&copy; 2024 Turtles Store. All rights reserved.</p>
+                    </footer>
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
